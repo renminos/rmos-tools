@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "revision": "fd65ef732ffb7e6d",
+  "updated_at": "2026-11-03T14:11:11Z",
+  "note": "Miner 来源表单：仅包含各 Miner 的 GitHub 项目与筛选配置，不含任何版本地址。",
+  "sources": [
+    {
+      "miner_name": "pearl-miner",
+      "repo": "pearlfortune/pearl-miner",
+      "platform": "linux",
+      "enabled": true
+    },
+    {
+      "miner_name": "onezerominer",
+      "repo": "OneZeroMiner/onezerominer",
+      "exclude": "linux",
+      "platform": "linux",
+      "enabled": true
+    },
+    {
+      "miner_name": "srbminer-multi",
+      "repo": "doktor83/SRBMiner-Multi",
+      "filter": "custom",
+      "platform": "linux",
+      "enabled": true
+    },
+    {
+      "miner_name": "forgeminer",
+      "repo": "0xHashRaptor/ForgeMiner",
+      "filter": "-",
+      "exclude": "linux",
+      "platform": "linux",
+      "enabled": true
+    },
+    {
+      "miner_name": "peakminer",
+      "repo": "peakminer/peakminer",
+      "exclude": "linux",
+      "platform": "linux",
+      "enabled": true
+    },
+    {
+      "miner_name": "rigel",
+      "repo": "rigelminer/rigel",
+      "platform": "linux",
+      "enabled": true
+    },
+    {
+      "miner_name": "wildrig-multi",
+      "repo": "andru-kun/wildrig-multi",
+      "filter": "hiveos",
+      "platform": "linux",
+      "enabled": true
+    },
+    {
+      "miner_name": "lolminer",
+      "repo": "Lolliedieb/lolMiner-releases",
+      "platform": "linux",
+      "enabled": true
+    }
+  ]
+}
