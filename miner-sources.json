@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "fd65ef732ffb7e6d",
-  "updated_at": "2026-11-03T14:11:11Z",
+  "revision": "94b2832eaf360ad7",
+  "updated_at": "2026-11-03T16:16:13Z",
   "note": "Miner 来源表单：仅包含各 Miner 的 GitHub 项目与筛选配置，不含任何版本地址。",
   "sources": [
     {
-      "miner_name": "pearl-miner",
+      "miner_name": "pearlfortune",
       "repo": "pearlfortune/pearl-miner",
       "platform": "linux",
       "enabled": true
